@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import api from './api/axios';
+import api from './api/axios'; // ✅ Axios instance (configure baseURL in api/axios.js)
 import './App.css';
 
 function App() {
